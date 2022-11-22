@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    // font-family: "Heebo",sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    @media screen and (max-width:1200px) {
+        max-width: 960px;        
+    }
+    @media screen and (max-width:990px) { 
+        max-width: 720px;     
+    }
+    @media screen and (max-width:768px) {
+        max-width: 540px;     
+    }
+}
+.spacing{
+        margin-top: 6rem;
+        @media screen and (max-width:1200px) {
+            margin-top: 5rem;     
+        }
+        @media screen and (max-width:990px) {
+            margin-top: 4rem;     
+        }
+        @media screen and (max-width:768px) {
+            margin-top: 3rem;     
+        }
+    }
