@@ -23,7 +23,7 @@ const About = () => {
                         <Search className='icon' />
                     </div>
                     <div className="heading">
-                        <h5>SERVICE 1</h5>
+                        <h5>SERVICE 2</h5>
                     </div>
                     <div className="para">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -35,7 +35,7 @@ const About = () => {
                         <Search className='icon' />
                     </div>
                     <div className="heading">
-                        <h5>SERVICE 1</h5>
+                        <h5>SERVICE 3</h5>
                     </div>
                     <div className="para">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -47,7 +47,7 @@ const About = () => {
                         <Search className='icon' />
                     </div>
                     <div className="heading">
-                        <h5>SERVICE 1</h5>
+                        <h5>SERVICE 4</h5>
                     </div>
                     <div className="para">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

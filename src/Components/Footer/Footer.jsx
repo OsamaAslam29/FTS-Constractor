@@ -26,39 +26,39 @@ const Footer = () => {
                             <div className='border'></div>
                         </div>
                         <div className="info">
-                            <a href="#">
-                                <MdLocationPin className='icon' />
+                            <a href="https://www.google.com/maps/place/United+States/@37.6,-95.665,9z/data=!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw?hl=en&gl=US">
+                                <MdLocationPin target="_blank" className='icon' />
                                 <p>United States of America</p>
                             </a>
-                            <a href="#">
+                            <a href="tel:(678) 666 5226">
                                 <MdLocalPhone className='icon' />
                                 <p>(678) 666 5226</p>
                             </a>
-                            <a href="#">
+                            <a href="mailto:info@firmtechsol.com">
                                 <HiMail className='icon' />
                                 <p>info@firmtechsol.com</p>
                             </a>
                         </div>
                         <div className="icons">
-                            <a href='#' className="circle">
+                            <a href='https://twitter.com' className="circle">
                                 <RiTwitterFill className='icon' />
                             </a>
-                            <a href='#' className="circle">
+                            <a href='https://www.facebook.com/' className="circle">
                                 <FaFacebookF className='icon' />
                             </a>
-                            <a href='#' className="circle">
+                            <a href='https://firmtechsol.com/' className="circle">
                                 <FaGlobeAmericas className='icon' />
                             </a>
-                            <a href='#' className="circle">
+                            <a href='https://youtu.be/c78EavDvxG0' className="circle">
                                 <ImYoutube className='icon' />
                             </a>
-                            <a href='#' className="circle">
+                            <a href='https://www.yelp.com' className="circle">
                                 <FaYelp className='icon' />
                             </a>
-                            <a href='#' className="circle">
+                            <a href='https://www.instagram.com' className="circle">
                                 <RiInstagramFill className='icon' />
                             </a>
-                            <a href='#' className="circle">
+                            <a href='https://www.google.com/business/' className="circle">
                                 <GrGoogle className='icon' />
                             </a>
                         </div>
@@ -70,32 +70,68 @@ const Footer = () => {
                         </div>
                         <div className="scroll-menu">
                             <a href="#">
-                                <FaAngleRight className="icon"/>
-                                <p>FTS Moving Services</p>
-                            </a>
-                            <a href="#">
                                 <FaAngleRight className="icon" />
                                 <p>FTS Moving Services</p>
                             </a>
                             <a href="#">
                                 <FaAngleRight className="icon" />
-                                <p>FTS Moving Services</p>
+                                <p>FTS Roofing Services</p>
                             </a>
                             <a href="#">
                                 <FaAngleRight className="icon" />
-                                <p>FTS Moving Services</p>
+                                <p>FTS Windows Services</p>
                             </a>
                             <a href="#">
                                 <FaAngleRight className="icon" />
-                                <p>FTS Moving Services</p>
+                                <p>FTS Plumbing Services</p>
                             </a>
                             <a href="#">
                                 <FaAngleRight className="icon" />
-                                <p>FTS Moving Services</p>
+                                <p>FTS Flooring Services</p>
                             </a>
                             <a href="#">
                                 <FaAngleRight className="icon" />
-                                <p>FTS Moving Services</p>
+                                <p>FTS Remodeling Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Locksmiths Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Landscaping Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Appliance Repair</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Garage Doors Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Pest Controls Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Kitchen & Bath Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Chimney Sweeps Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Home Inspectors Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Shades & Blinds Services</p>
+                            </a>
+                            <a href="#">
+                                <FaAngleRight className="icon" />
+                                <p>FTS Cabinets Services</p>
                             </a>
                         </div>
                     </div>

@@ -34,9 +34,17 @@
                 font-size: 18px;
                 color: var(--light);
                 font-weight: 500;
+               
                 &:hover {
                     color: var(--primary);
                 }
+                
+                &:active{
+                    color: var(--primary);
+                }
+            }
+            .active{
+                color: var(--primary);
             }
 
            
@@ -78,8 +86,35 @@
 }
 
 .main {
+    padding: 2rem;
     background-color: var(--dark);
-
-    
+    .border{
+        margin-top: 1.5rem;
+        width: 100%;
+        border-bottom: 1px solid rgba(214, 208, 208,.2);
+    }
+    .nav{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        a{
+            color: #fff;
+            font-size: 18px;
+            &:active{
+                color: var(--primary);
+            }
+        }
+        .active{
+            color: var(--primary);
+        }
+        .right{
+            a{
+                padding: 10px 20px;
+                background-color: var(--primary);
+                border-radius: 3px;
+            }
+        }
+    }
 
 }

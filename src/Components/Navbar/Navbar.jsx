@@ -38,24 +38,11 @@ const Navbar = () => {
                 </div>
                 <div className="border"></div>
                 <div className="nav">
-                    <div className="mobile_icon" to="/Home">
-                        <a href="#home">Home</a>
-                    </div>
-                    <div className="mobile_icon" to="/Home">
-                        <a href="#about">About Us</a>
-                    </div>
-                    <div className="mobile_icon" to="/Home">
+                        <a href="#home" className='active'>Home</a>
+                        <a href="#about">About</a>
                         <a href="#services">Services</a>
-                    </div>
-                    <div className="mobile_icon" to="/Home">
-                        <a href="#gallery">Gallery</a>
-                    </div>
-                    <div className="mobile_icon" to="/Home">
-                        <a href="#review">Reviews</a>
-                    </div>
-                    <div className="mobile_icon" to="/Home">
-                        <a href="#contact">Contact Us</a>
-                    </div>
+                        <a href="#contact">Contact</a>
+                        <a href="#gallery">Testimonial</a>
                     <div className='right'>
                         <a href="tel:(470) 999-6819">Contact Us</a>
                     </div>
@@ -73,7 +60,7 @@ const Navbar = () => {
             </div>
             <div className="menu">
                 <div className="web-menu">
-                        <a href="#home">Home</a>
+                        <a href="#home" className='active'>Home</a>
                         <a href="#about">About</a>
                         <a href="#services">Services</a>
                         <a href="#contact">Contact</a>
