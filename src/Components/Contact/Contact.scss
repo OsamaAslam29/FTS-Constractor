@@ -1,0 +1,24 @@
+.contact-container{
+    .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .flex {
+            display: flex;
+            align-items: center;
+            gap: .7rem;
+
+            .border {
+                margin-top: .5rem;
+                width: 45px;
+                height: 2px;
+                background-color: var(--primary);
+            }
+        }
+        h2{
+            margin-top: .2rem;
+        }
+
+    }
+}

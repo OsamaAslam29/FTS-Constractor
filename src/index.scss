@@ -32,6 +32,10 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  @media screen and (max-width: 770px) {
+    font-size: 1.5rem;
+}
+
 }
 
 h3 {

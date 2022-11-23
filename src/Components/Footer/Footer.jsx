@@ -1,6 +1,20 @@
 import React from 'react'
 import "./Footer.scss"
 import { MdLocationPin } from 'react-icons/md';
+import { MdLocalPhone } from 'react-icons/md';
+import { HiMail } from 'react-icons/hi';
+
+import { RiTwitterFill } from 'react-icons/ri';
+import { FaFacebookF } from 'react-icons/fa';
+import { FaGlobeAmericas } from 'react-icons/fa';
+import { ImYoutube } from 'react-icons/im';
+import { FaYelp } from 'react-icons/fa';
+import { RiInstagramFill } from 'react-icons/ri';
+import { GrGoogle } from 'react-icons/gr';
+
+
+import { FaAngleRight } from 'react-icons/fa';
+
 const Footer = () => {
     return (
         <div className='footer-container spacing'>
@@ -17,70 +31,70 @@ const Footer = () => {
                                 <p>United States of America</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin className='icon' />
+                                <MdLocalPhone className='icon' />
                                 <p>(678) 666 5226</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin className='icon' />
+                                <HiMail className='icon' />
                                 <p>info@firmtechsol.com</p>
                             </a>
                         </div>
                         <div className="icons">
                             <a href='#' className="circle">
-                                <MdLocationPin className='icon' />
+                                <RiTwitterFill className='icon' />
                             </a>
                             <a href='#' className="circle">
-                                <MdLocationPin className='icon' />
+                                <FaFacebookF className='icon' />
                             </a>
                             <a href='#' className="circle">
-                                <MdLocationPin className='icon' />
+                                <FaGlobeAmericas className='icon' />
                             </a>
                             <a href='#' className="circle">
-                                <MdLocationPin className='icon' />
+                                <ImYoutube className='icon' />
                             </a>
                             <a href='#' className="circle">
-                                <MdLocationPin className='icon' />
+                                <FaYelp className='icon' />
                             </a>
                             <a href='#' className="circle">
-                                <MdLocationPin className='icon' />
+                                <RiInstagramFill className='icon' />
                             </a>
                             <a href='#' className="circle">
-                                <MdLocationPin className='icon' />
+                                <GrGoogle className='icon' />
                             </a>
                         </div>
                     </div>
                     <div className="links">
                         <div className="heading">
-                            <h4>Contact</h4>
+                            <h4>Related Links</h4>
                             <div className='border'></div>
                         </div>
                         <div className="scroll-menu">
                             <a href="#">
-                                <MdLocationPin />
+                                <FaAngleRight className="icon"/>
                                 <p>FTS Moving Services</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin />
+                                <FaAngleRight className="icon" />
                                 <p>FTS Moving Services</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin />
+                                <FaAngleRight className="icon" />
                                 <p>FTS Moving Services</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin />
+                                <FaAngleRight className="icon" />
                                 <p>FTS Moving Services</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin />
+                                <FaAngleRight className="icon" />
                                 <p>FTS Moving Services</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin />
+                                <FaAngleRight className="icon" />
                                 <p>FTS Moving Services</p>
                             </a>
                             <a href="#">
-                                <MdLocationPin />
+                                <FaAngleRight className="icon" />
                                 <p>FTS Moving Services</p>
                             </a>
                         </div>
@@ -92,7 +106,7 @@ const Footer = () => {
                 </div>
                 <div className="border"></div>
                 <div className="copyright">
-                <p>© Copyright 2022 | Powered by <b><a href="http://firmtechservices.com/">FTS</a></b>. All Right Reserved.</p>
+                    <p>© Copyright 2022 | Powered by <b><a href="http://firmtechservices.com/">FTS</a></b>. All Right Reserved.</p>
                 </div>
 
 
