@@ -31,19 +31,23 @@
             align-items: center;
 
             a {
-                font-size: 17px;
+                font-size: 18px;
                 color: var(--light);
                 font-weight: 500;
+                &:hover {
+                    color: var(--primary);
+                }
             }
 
-            a:hover {
-                color: var(--primary);
-            }
+           
 
             .call {
                 padding: 10px 30px;
                 background-color: var(--primary);
                 border-radius: 3px;
+                &:hover {
+                    color: #fff;
+                }
             }
 
             @media screen and (max-width:990px) {

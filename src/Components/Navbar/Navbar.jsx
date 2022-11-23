@@ -76,8 +76,8 @@ const Navbar = () => {
                         <a href="#home">Home</a>
                         <a href="#about">About</a>
                         <a href="#services">Services</a>
-                        <a href="#home">Contact</a>
-                        <a href="#home">Testimonaial</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#testimonail">Testimonial</a>
                         <a className='call' href="#home">Call Us</a>
                 </div>
                 <div className="mobile-menu">

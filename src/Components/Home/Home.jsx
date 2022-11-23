@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import './Home.scss'
 const Home = () => {
   return (
+    <>
     <div className='home-container'>
       <Navbar className="postion" />
       <div className="container" id='home'>
@@ -15,6 +16,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
