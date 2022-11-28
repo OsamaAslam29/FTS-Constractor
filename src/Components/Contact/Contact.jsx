@@ -27,19 +27,15 @@ const Contact = () => {
 
                 </div>
             </Slide>
-            <div className="flex-contact">
-                <Slide bottom>
+            <div className="flex-contact">     
                     <div className="video-section">
-                        <Slide bottom>
                             <React.Fragment>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
                                 <div className="startContainer">
                                     <button className="button pulseBox" onClick={() => setOpen(true)}><AiOutlineCaretRight className='icon' /> </button>
                                 </div>
                             </React.Fragment>
-                        </Slide>
                     </div>
-                </Slide>
                 <Slide bottom>
                     <div className="contact-form">
                         <Slide bottom>
