@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import ScrollButton from './Components/ScrollButton/ScrollButton';
 import Services from './Components/Services/Services';
+import Testimonial from './Components/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Services/>
       <Contact/>
+      {/* <Testimonial/> */}
       <Footer/>
       <ScrollButton/>
     </>

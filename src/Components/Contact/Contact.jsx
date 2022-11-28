@@ -25,12 +25,12 @@ const Contact = () => {
             </div>
             <div className="flex-contact">
                 <div className="video-section">
-                    {/* <React.Fragment> */}
-                        {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="" onClose={() => setOpen(false)} />
-                    </React.Fragment> */}
+                    <React.Fragment>
+                        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
                         <div className="startContainer">
                             <button className="button pulseBox" onClick={() => setOpen(true)}><AiOutlineCaretRight className='icon' /> </button>
                         </div>
+                    </React.Fragment>
                 </div>
                 <div className="contact-form">
                     <div className="headings">
@@ -54,10 +54,10 @@ const Contact = () => {
                             <TextField className='input' color="warning" label="Message" variant="filled" />
                         </div>
                         <div className="flex-inputs">
-                            <Recaptcha 
+                            <Recaptcha
                                 sitekey="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"
                                 onChange={onChange}
-                                style={{display:"flex",justifyContent:"center"}}
+                                style={{ display: "flex", justifyContent: "center" }}
                             />
                         </div>
                         <div className="flex-inputs">
