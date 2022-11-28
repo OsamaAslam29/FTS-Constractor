@@ -7,6 +7,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 
+import Fade from 'react-reveal/Fade';
+
+
 const Navbar = () => {
 
 
@@ -67,50 +70,53 @@ const Navbar = () => {
         if (window.scrollY >= 80) {
             setBackground(true)
         } else {
-            setBackground(false)      
+            setBackground(false)
         }
     }
     window.addEventListener("scroll", changeNavBar);
-   
+
     return (
+        <Fade top>
+            <div className={background ? 'nav-container scroll' : 'nav-container'}>
 
-        <div className={background ? 'nav-container scroll' : 'nav-container'}>
-            <div className="logo">
-                <img src={logo} alt="" />
-            </div>
-            <div className="menu">
-                <div className="web-menu">
-                    <a href="#home" className='active'>Home</a>
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#testimonail">Testimonial</a>
-                    <a className='call' href="#home">Call Us</a>
+                <div className="logo">
+                    <img src={logo} alt="" />
                 </div>
-                <div className="mobile-menu">
-                    <div className='ham_none'>
-                        {['top'].map((anchor) => (
-                            <React.Fragment key={anchor}>
 
-                                <div className="menu">
-                                    <MenuIcon onClick={toggleDrawer(anchor, true)} style={{ fontSize: "30px" }} />
-                                </div>
-                                <SwipeableDrawer
-                                    anchor={anchor}
-                                    open={state[anchor]}
-                                    onClose={toggleDrawer(anchor, false)}
-                                    onOpen={toggleDrawer(anchor, true)}
-                                >
-                                    {list(anchor)}
-                                </SwipeableDrawer>
-                            </React.Fragment>
-                        ))}
+                <div className="menu">
+                    <div className="web-menu">
+                        <a href="#home" className='active'>Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#testimonail">Testimonial</a>
+                        <a className='call' href="#home">Call Us</a>
                     </div>
+                    <div className="mobile-menu">
+                        <div className='ham_none'>
+                            {['top'].map((anchor) => (
+                                <React.Fragment key={anchor}>
+
+                                    <div className="menu">
+                                        <MenuIcon onClick={toggleDrawer(anchor, true)} style={{ fontSize: "30px" }} />
+                                    </div>
+                                    <SwipeableDrawer
+                                        anchor={anchor}
+                                        open={state[anchor]}
+                                        onClose={toggleDrawer(anchor, false)}
+                                        onOpen={toggleDrawer(anchor, true)}
+                                    >
+                                        {list(anchor)}
+                                    </SwipeableDrawer>
+                                </React.Fragment>
+                            ))}
+                        </div>
 
 
+                    </div>
                 </div>
             </div>
-        </div>
+        </Fade>
     )
 }
 

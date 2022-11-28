@@ -4,6 +4,7 @@ import first from '../../Assets/first.png'
 import second from '../../Assets/second.jpg'
 import third from '../../Assets/third.jpg'
 import forth from '../../Assets/forth.jpg'
+import Zoom from 'react-reveal/Zoom';
 
 const Services = () => {
     return (
@@ -12,20 +13,28 @@ const Services = () => {
                 <div className="flex-about">
                     <div className="images-box">
                         <div className="upper">
-                            <div className="large-image">
-                                <img src={first} alt="" />
-                            </div>
+                            <Zoom>
+                                <div className="large-image">
+                                    <img src={first} alt="" />
+                                </div>
+                            </Zoom>
+                            <Zoom>
                             <div className="small-image">
                                 <img src={second} alt="" />
                             </div>
+                            </Zoom>
                         </div>
                         <div className="lower">
+                        <Zoom>
                             <div className="small-image">
                                 <img src={third} alt="" />
                             </div>
+                            </Zoom>
+                            <Zoom>
                             <div className="large-image">
                                 <img src={forth} alt="" />
                             </div>
+                            </Zoom>
                         </div>
                     </div>
                     <div className="about-box">
