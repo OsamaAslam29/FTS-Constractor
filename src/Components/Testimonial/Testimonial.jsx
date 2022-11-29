@@ -59,32 +59,30 @@ const Testimonial = () => {
         arrows: false,
         autoplay: false,
         autoplaySpeed: 2000,
-        // asNavFor: ".slider-for",
         centerMode: true,
-        // responsive: [
-        //     {
-        //         breakpoint: 1270,
-        //         settings: {
-        //             slidesToShow: 3,
-        //             slidesToScroll: 1,
-        //             infinite: true,
-        //             dots: true,
-        //         },
-        //     },
-        //     {
-        //         breakpoint: 1000,
-        //         settings: {
-        //             slidesToShow: 2,
-        //             slidesToScroll: 1,
-        //             initialSlide: 0,
-        //         },
-        //     },
-        // ],
+        responsive: [
+            {
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                },
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 0,
+                },
+            },
+        ],
     };
 
     return (
         <div className='testimonail-container'>
-            <div className="container spacing">
+            <div className="container">
                 <div className="heading">
                     <div className='flex'>
                         <h4>Testimonail</h4>

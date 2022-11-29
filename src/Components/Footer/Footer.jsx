@@ -19,7 +19,7 @@ import { FaAngleRight } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='footer-container spacing'>
+        <div className='footer-container'>
             <div className="container">
                 <div className="flex-footer">
                     <Slide left>

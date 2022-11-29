@@ -1,5 +1,10 @@
 .testimonail-container {
   background-color: #F1F8FF;
+  margin-top: 4rem;
+  @media screen and (max-width: 1200px) {
+    margin-top: 3rem;
+  }
+
 
   .heading {
     display: flex;
@@ -7,6 +12,9 @@
     justify-content: center;
     align-items: center;
     padding-top: 3rem;
+    @media screen and (max-width: 600px) {
+      padding-top: 1rem;
+    }
 
     .flex {
       display: flex;
@@ -51,7 +59,7 @@ li.slick-active button:before {
 .slick-current {
   .slide_parent {
     display: flex !important;
-    height: 400px;
+    width: 330px !important;
     background-color: var(--primary);
     color: #ffffff;
     gap: 10px;
@@ -61,6 +69,15 @@ li.slick-active button:before {
     border: 1px solid rgb(192, 190, 190);
     padding: 1rem;
     gap: 2rem;
+    @media screen and (max-width: 1200px) {
+      width: 250px !important;
+    }
+    @media screen and (max-width: 990px) {
+      width: 300px !important;
+    }
+    @media screen and (max-width: 420px) {
+      width: 250px !important;
+    }
 
     .icon {
       font-size: 2em;
@@ -97,7 +114,8 @@ li.slick-active button:before {
 }
 
 .slide_parent {
-  height: 300px;
+  width: 330px !important;
+  height: 300px !important;
   display: flex !important;
   flex-direction: column !important;
   background-color: white;
@@ -107,6 +125,17 @@ li.slick-active button:before {
   border: 1px solid rgb(192, 190, 190);
   padding: 1rem;
   gap: 2rem;
+
+  @media screen and (max-width: 1200px) {
+    width: 250px !important;
+  }
+  @media screen and (max-width: 990px) {
+    width: 300px !important;
+  }
+  @media screen and (max-width: 420px) {
+    width: 250px !important;
+  }
+
 
   .icon {
     font-size: 2em;
@@ -132,7 +161,11 @@ li.slick-active button:before {
 .parent {
   max-width: 1200px;
   margin: 0 auto;
-
+  padding: 3rem 0 5rem 0;
+   padding-top: 3rem;
+   @media screen and (max-width: 600px) {
+    padding: 2rem 0 3rem 0;
+  }
   .main {
     display: flex !important;
     justify-content: center !important;
