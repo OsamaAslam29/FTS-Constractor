@@ -1,181 +1,168 @@
 .testimonail-container {
-    background-color: #F1F8FF;
+  background-color: #F1F8FF;
 
-    .heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 3rem;
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
 
-        .flex {
-            display: flex;
-            align-items: center;
-            gap: .7rem;
+    .flex {
+      display: flex;
+      align-items: center;
+      gap: .7rem;
 
-            .border {
-                margin-top: .5rem;
-                width: 45px;
-                height: 2px;
-                background-color: var(--primary);
-            }
-        }
-
-        h2 {
-            margin-top: .2rem;
-        }
-
+      .border {
+        margin-top: .5rem;
+        width: 45px;
+        height: 2px;
+        background-color: var(--primary);
+      }
     }
 
-    .flex-testimonial {
-        padding: 4rem 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem;
-
-        .testimonail {
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            border: 1px solid rgb(192, 190, 190);
-            padding: 1rem;
-            gap: 2rem;
-
-            p {
-                text-align: justify;
-            }
-
-            .icon {
-                font-size: 2em;
-                color: var(--primary);
-            }
-
-            .bio {
-                display: flex;
-                gap: 1rem;
-
-                img {
-                    height: 65px;
-                    width: 65px;
-                }
-
-                .data {
-                    margin-top: 15px;
-                }
-            }
-
-        }
+    h2 {
+      margin-top: .2rem;
     }
+
+  }
 
 }
+
 .slick-dots li button:before {
-    font-size: 16px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    content: "•";
-    text-align: center;
-    opacity: 0.25;
-    color: gray;
-  }
-  
-  li.slick-active button:before {
-    color: #ffffff !important;
-  }
-  
-  
-  .slick-current{
-    .slide_parent {
-    display: flex !important;
-    justify-content: center;
-    flex-direction: column !important;
-    align-items: center !important ;
-    width: 290px !important;
-    height: 160px;
-    background-color: rgba(0, 0, 255, 0.397);
-    gap: 10px;
-    // background-color: red;
-    .text {
-      font-family: "Montserrat";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 27px;
-      /* identical to box height */
-      
-      text-align: center;
-      
-      color: red;
-    }
-  }
-  }
-  
-  
-  .slick-dots {
-    bottom: -60px;
-  }
-  
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: gray;
+}
+
+li.slick-active button:before {
+  color: #ffffff !important;
+}
+
+
+.slick-current {
   .slide_parent {
     display: flex !important;
-    justify-content: center;
-    flex-direction: column !important;
-    align-items: center !important ;
-    width: 290px !important;
-    height: 160px;
-    background-color: white;
+    height: 400px;
+    background-color: var(--primary);
+    color: #ffffff;
     gap: 10px;
-    // background-color: red;
-  
-  }
-  .parent {
-    max-width: 1200px;
-    margin: 0 auto;
-  
-    .main {
-      display: flex !important;
-      justify-content: center !important;
-      gap: 10px !important;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(192, 190, 190);
+    padding: 1rem;
+    gap: 2rem;
+
+    .icon {
+      font-size: 2em;
+      color: #fff;
+
     }
-  
-    .number1 {
-      //   background-color: #6FCF97;
-      width: 290px;
-      height: 160px;
-  
-      background: #ffffff;
-      display: flex !important;
-      gap: 10px !important;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-  
+
     .text {
-      font-family: "Montserrat";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 27px;
-      /* identical to box height */
-  
-      text-align: center;
-  
-      color: #00a859;
+      text-align: justify;
+      color: white;
+    }
+
+    .bio {
+      display: flex;
+      gap: 1rem;
+
+      img {
+        color: #fff;
+        background-color: #d9d9d9;
+        height: 65px;
+        width: 65px;
+      }
+
+      .data {
+        margin-top: 15px;
+      }
     }
   }
-  
-  .slider__main {
-    height: 720px;
-  
-    background: #d9d9d9;
-    position: relative;
-  
-    .slider__componet {
-      position: absolute;
-      bottom: 6rem;
-      width: 100%;
+}
+
+
+.slick-dots {
+  bottom: -60px;
+}
+
+.slide_parent {
+  height: 300px;
+  display: flex !important;
+  flex-direction: column !important;
+  background-color: white;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(192, 190, 190);
+  padding: 1rem;
+  gap: 2rem;
+
+  .icon {
+    font-size: 2em;
+    color: var(--primary);
+  }
+
+  .bio {
+    display: flex;
+    gap: 1rem;
+
+    img {
+      height: 65px;
+      width: 65px;
     }
-  } 
+
+    .data {
+      margin-top: 15px;
+    }
+  }
+
+}
+
+.parent {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .main {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+  }
+
+  .number1 {
+    height: 400px;
+    background: #ffffff;
+    display: flex !important;
+    gap: 10px !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text {
+    text-align: justify;
+  }
+}
+
+.slider__main {
+  height: 720px;
+
+  background: #d9d9d9;
+  position: relative;
+
+  .slider__componet {
+    position: absolute;
+    bottom: 6rem;
+    width: 100%;
+  }
+}

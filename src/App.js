@@ -10,13 +10,13 @@ import Testimonial from './Components/Testimonial/Testimonial';
 function App() {
   return (
     <>
-      <Home/>
+      {/* <Home/>
       <About/>
       <Services/>
-      <Contact/>
-      {/* <Testimonial/> */}
-      <Footer/>
-      <ScrollButton/>
+      <Contact/> */}
+      <Testimonial/>
+      {/* <Footer/>
+      <ScrollButton/> */}
     </>
   );
 }

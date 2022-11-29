@@ -1,71 +1,85 @@
 import React from 'react'
 import './Testimonial.scss'
 import { FaQuoteLeft } from 'react-icons/fa';
-import profile from '../../Assets/image.svg'
- 
-import Slider from "react-slick"; 
-import { FaBeer } from "react-icons/fa";
+
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { ReactComponent as Pic } from '../../Assets/image.svg';
 
 
 
 const arr = [
     {
-        img: <FaBeer />,
-        heading: "Lorem Ipsum",
+        img: <FaQuoteLeft />,
+        heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        pic: <Pic />,
+        bio: "CLIENT 1",
+        data: "Customer",
+
+
     },
     {
-        img: <FaBeer />,
-        heading: "Lorem Ipsum",
+        img: <FaQuoteLeft />,
+        heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        pic: <Pic />,
+        bio: "CLIENT 2",
+        data: "Customer",
+
+
+
     },
     {
-        img: <FaBeer />,
-        heading: "Lorem Ipsum",
+        img: <FaQuoteLeft />,
+        heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        pic: <Pic />,
+        bio: "CLIENT 3",
+        data: "Customer",
+
     },
     {
-        img: <FaBeer />,
-        heading: "Lorem Ipsum",
-    },
-    {
-        img: <FaBeer />,
-        heading: "Lorem Ipsum",
+        img: <FaQuoteLeft />,
+        heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        pic: <Pic />,
+        bio: "CLIENT 3",
+        data: "Customer",
+
     },
 ];
 
 const Testimonial = () => {
 
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         // asNavFor: ".slider-for",
         centerMode: true,
-        responsive: [
-            {
-                breakpoint: 1270,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true,
-                },
-            },
-            {
-                breakpoint: 1000,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    initialSlide: 0,
-                },
-            },
-        ],
+        // responsive: [
+        //     {
+        //         breakpoint: 1270,
+        //         settings: {
+        //             slidesToShow: 3,
+        //             slidesToScroll: 1,
+        //             infinite: true,
+        //             dots: true,
+        //         },
+        //     },
+        //     {
+        //         breakpoint: 1000,
+        //         settings: {
+        //             slidesToShow: 2,
+        //             slidesToScroll: 1,
+        //             initialSlide: 0,
+        //         },
+        //     },
+        // ],
     };
 
     return (
@@ -78,53 +92,24 @@ const Testimonial = () => {
                     </div>
                     <h2>Our Clients Say</h2>
                 </div>
-                {/* <div className="flex-testimonial">
-                    <div className="testimonail">
-                        <FaQuoteLeft className='icon'/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div className="bio">
-                            <img src={profile} alt="" />
-                            <div className="data">
-                                <h5>CLIENT 1</h5>
-                                <small>Customer</small>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="testimonail">
-                        <FaQuoteLeft className='icon'/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div className="bio">
-                            <img src={profile} alt="" />
-                            <div className="data">
-                                <h5>CLIENT 1</h5>
-                                <small>Customer</small>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="testimonail">
-                        <FaQuoteLeft className='icon'/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div className="bio">
-                            <img src={profile} alt="" />
-                            <div className="data">
-                                <h5>CLIENT 1</h5>
-                                <small>Customer</small>
-                            </div>
-                        </div>
-
-                    </div>
-                </div> */}
                 <div className="parent">
                     <Slider {...settings}>
                         {arr.map((data, i) => {
                             return (
-                                <div className="slide_parent" key={i}>
-                                    <div>
+                                <div className="slide_parent">
+                                    <div className='icon'>
                                         {data.img}
                                     </div>
-                                    <div className="text">{data.heading}</div>
+                                    <p className='text'>{data.heading}</p>
+                                    <div className="bio">
+                                        <div>
+                                            {data.pic}
+                                        </div>
+                                        <div className="data">
+                                            <h5>{data.bio}</h5>
+                                            <small>{data.data}</small>
+                                        </div>
+                                    </div>
                                 </div>
                             );
                         })}
