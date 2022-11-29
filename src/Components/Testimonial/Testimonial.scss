@@ -68,3 +68,114 @@
     }
 
 }
+.slick-dots li button:before {
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: gray;
+  }
+  
+  li.slick-active button:before {
+    color: #ffffff !important;
+  }
+  
+  
+  .slick-current{
+    .slide_parent {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center !important ;
+    width: 290px !important;
+    height: 160px;
+    background-color: rgba(0, 0, 255, 0.397);
+    gap: 10px;
+    // background-color: red;
+    .text {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      /* identical to box height */
+      
+      text-align: center;
+      
+      color: red;
+    }
+  }
+  }
+  
+  
+  .slick-dots {
+    bottom: -60px;
+  }
+  
+  .slide_parent {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center !important ;
+    width: 290px !important;
+    height: 160px;
+    background-color: white;
+    gap: 10px;
+    // background-color: red;
+  
+  }
+  .parent {
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    .main {
+      display: flex !important;
+      justify-content: center !important;
+      gap: 10px !important;
+    }
+  
+    .number1 {
+      //   background-color: #6FCF97;
+      width: 290px;
+      height: 160px;
+  
+      background: #ffffff;
+      display: flex !important;
+      gap: 10px !important;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .text {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      /* identical to box height */
+  
+      text-align: center;
+  
+      color: #00a859;
+    }
+  }
+  
+  .slider__main {
+    height: 720px;
+  
+    background: #d9d9d9;
+    position: relative;
+  
+    .slider__componet {
+      position: absolute;
+      bottom: 6rem;
+      width: 100%;
+    }
+  } 
