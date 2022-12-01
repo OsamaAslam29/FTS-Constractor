@@ -44,9 +44,9 @@ const Navbar = () => {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <div className='main'>
-                <div className="logo">
+                <a href='https://weblymart.com/landpage/landingpage/business_logos/1657828096_08.png' className="logo">
                     <img src={logo} alt="" />
-                </div>
+                </a>
                 <div className="border"></div>
                 <div className="nav">
                     <a href="#home" className='active'>Home</a>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     <a href="#contact">Contact</a>
                     <a href="#gallery">Testimonial</a>
                     <div className='right'>
-                        <a href="tel:(470) 999-6819">Contact Us</a>
+                        <a href="tel:(678) 666 5226">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -79,9 +79,9 @@ const Navbar = () => {
         <Fade top>
             <div className={background ? 'nav-container scroll' : 'nav-container'}>
 
-                <div className="logo">
+                <a href='https://weblymart.com/landpage/landingpage/business_logos/1657828096_08.png' className="logo">
                     <img src={logo} alt="" />
-                </div>
+                </a>
 
                 <div className="menu">
                     <div className="web-menu">
@@ -90,7 +90,7 @@ const Navbar = () => {
                         <a href="#services">Services</a>
                         <a href="#contact">Contact</a>
                         <a href="#testimonail">Testimonial</a>
-                        <a className='call' href="#home">Call Us</a>
+                        <a className='call' href="tel:(678) 666 5226">Call Us</a>
                     </div>
                     <div className="mobile-menu">
                         <div className='ham_none'>

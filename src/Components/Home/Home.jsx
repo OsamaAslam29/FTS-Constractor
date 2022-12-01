@@ -15,7 +15,7 @@ const Home = () => {
           <h1>FTS General Contractors Services</h1>
           <h3>Sample Landing Page</h3>
           <div className='primary-button'>
-            <a href="tel:">Call Us</a>
+            <a href="tel:(678) 666 5226">Call Us</a>
           </div>
         </Bounce>
         </div>

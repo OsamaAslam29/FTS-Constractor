@@ -59,7 +59,7 @@ li.slick-active button:before {
 .slick-current {
   .slide_parent {
     display: flex !important;
-    width: 330px !important;
+    width: 360px !important;
     background-color: var(--primary);
     color: #ffffff;
     gap: 10px;
@@ -114,7 +114,7 @@ li.slick-active button:before {
 }
 
 .slide_parent {
-  width: 330px !important;
+  width: 360px !important;
   height: 300px !important;
   display: flex !important;
   flex-direction: column !important;

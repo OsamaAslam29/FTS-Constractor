@@ -65,10 +65,12 @@
                     gap: .5rem;
                     color: var(--light);
                     cursor: pointer;
+
                     &:hover {
                         color: var(--primary);
                     }
-                    .icon{
+
+                    .icon {
                         font-size: 22px;
                     }
                 }
@@ -89,7 +91,8 @@
                     border: 1px solid #FFFFFF;
                     border-radius: 35px;
                     transition: .3s;
-                    .icon{
+
+                    .icon {
                         font-size: 19px;
                     }
                 }
@@ -123,13 +126,12 @@
 
             .scroll-menu {
                 height: 22vh;
-                background-color: transparent;
                 overflow: auto;
+                background-color: transparent;
                 white-space: nowrap;
                 display: flex;
                 flex-direction: column;
                 gap: .7rem;
-
                 a {
                     display: inline-block;
                     color: white;
@@ -140,15 +142,16 @@
                     gap: .2rem;
                     text-transform: capitalize;
                     transition: .3s;
+
                     &:hover {
                         letter-spacing: 1px;
                         box-shadow: none;
                     }
-                    
-                    
+
+
                 }
 
-                
+
             }
         }
 

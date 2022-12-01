@@ -41,6 +41,22 @@ const arr = [
         img: <FaQuoteLeft />,
         heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         pic: <Pic />,
+        bio: "CLIENT 1",
+        data: "Customer",
+
+    },
+    {
+        img: <FaQuoteLeft />,
+        heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        pic: <Pic />,
+        bio: "CLIENT 2",
+        data: "Customer",
+
+    },
+    {
+        img: <FaQuoteLeft />,
+        heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        pic: <Pic />,
         bio: "CLIENT 3",
         data: "Customer",
 
@@ -59,7 +75,7 @@ const Testimonial = () => {
         arrows: false,
         autoplay: false,
         autoplaySpeed: 2000,
-        centerMode: true,
+        // centerMode: true,
         responsive: [
             {
                 breakpoint: 990,

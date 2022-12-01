@@ -74,67 +74,67 @@ const Footer = () => {
                                 <div className='border'></div>
                             </div>
                             <div className="scroll-menu">
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Moving-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Moving Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Roofing-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Roofing Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Windows-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Windows Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Plumbing-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Plumbing Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Flooring-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Flooring Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Remodeling-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Remodeling Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Locksmiths-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Locksmiths Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Landscaping-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Landscaping Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Appliance-Repair">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Appliance Repair</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Garage-Doors-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Garage Doors Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Pest-Controls-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Pest Controls Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Kitchen-&-Bath-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Kitchen & Bath Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Chimney-Sweeps-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Chimney Sweeps Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Home-Inspectors-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Home Inspectors Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Shades-Blinds-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Shades & Blinds Services</p>
                                 </a>
-                                <a href="#">
+                                <a href="https://weblymart.com/landpage/dummy/100-FTS-Cabinets-Services">
                                     <FaAngleRight className="icon" />
                                     <p>FTS Cabinets Services</p>
                                 </a>
