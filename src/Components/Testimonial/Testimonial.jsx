@@ -67,7 +67,7 @@ const Testimonial = () => {
 
     var settings = {
         dots: false,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -75,7 +75,7 @@ const Testimonial = () => {
         arrows: false,
         autoplay: false,
         autoplaySpeed: 2000,
-        // centerMode: true,
+        centerMode: true,
         responsive: [
             {
                 breakpoint: 990,

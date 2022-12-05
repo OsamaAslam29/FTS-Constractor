@@ -1,0 +1,104 @@
+.tContianer{
+   background-color: #F1F8FF;
+  margin-top: 4rem;
+
+    padding: 3rem 0;
+
+  .slick-dots {
+  bottom: -60px;
+}
+
+.slider__container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: gray;
+}
+
+li.slick-active button:before {
+  color: #ffffff !important;
+}
+
+  .card1{
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    color: black;
+    height: 300px !important;
+    width: 300px !important;
+    background-color: rgba(128, 128, 128, 0.322);
+      .icon {
+    font-size: 2em;
+    color: var(--primary);
+  }
+
+  .bio {
+    display: flex;
+    gap: 1rem;
+
+    img {
+      height: 65px;
+      width: 65px;
+    }
+
+    .data {
+      margin-top: 15px;
+    }
+  }
+  }
+
+  .slick-current{
+      .card1{
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    color: black;
+    height: 300px !important;
+    width: 300px !important;
+    background-color: rgba(255, 0, 0, 0.137);
+      .icon {
+    font-size: 2em;
+    color: var(--primary);
+  }
+
+  .bio {
+    display: flex;
+    gap: 1rem;
+
+    img {
+      height: 65px;
+      width: 65px;
+    }
+
+    .data {
+      margin-top: 15px;
+    }
+  }
+  }
+  }
+
+  .tcards{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+
+
+}

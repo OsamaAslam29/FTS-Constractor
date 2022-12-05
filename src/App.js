@@ -3,6 +3,7 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
+import NewTestimonials from './Components/NewTestimonials/NewTestimonials';
 import ScrollButton from './Components/ScrollButton/ScrollButton';
 import Services from './Components/Services/Services';
 import Testimonial from './Components/Testimonial/Testimonial';
@@ -14,7 +15,7 @@ function App() {
       <About/>
       <Services/>
       <Contact/>
-      <Testimonial/>
+      <NewTestimonials/>
       <Footer/>
       <ScrollButton/>
     </>
