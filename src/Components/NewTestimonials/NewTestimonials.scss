@@ -1,102 +1,161 @@
-.tContianer{
-   background-color: #F1F8FF;
+.tContianer {
+  background-color: #F1F8FF;
   margin-top: 4rem;
+  padding: 2rem 0 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 
-    padding: 3rem 0;
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem;
+
+    @media screen and (max-width: 600px) {
+      padding: 1rem 0rem;
+
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+
+      .border {
+        margin-top: .5rem;
+        width: 45px;
+        height: 2px;
+        background-color: var(--primary);
+      }
+    }
+
+    h2 {
+      margin-top: .2rem;
+    }
+
+  }
 
   .slick-dots {
-  bottom: -60px;
-}
+    bottom: -60px;
+  }
 
-.slider__container{
-  max-width: 1200px;
-  margin: 0 auto;
-}
+  .slider__container {
+    max-width: 1140px;
+    margin: 0 auto;
 
-.slick-dots li button:before {
-  font-size: 16px;
-  line-height: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  content: "•";
-  text-align: center;
-  opacity: 0.25;
-  color: gray;
-}
+    @media screen and (max-width: 1200px) {
+      max-width: 960px;
+    }
 
-li.slick-active button:before {
-  color: #ffffff !important;
-}
+    @media screen and (max-width: 990px) {
+      max-width: 720px;
+    }
+    @media screen and (max-width: 768px){
+      max-width: 540px;
+    }
+    @media screen and (max-width: 650px){
+      max-width: -webkit-fill-available;
+    }
+  }
 
-  .card1{
+  .slick-dots li button:before {
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: gray;
+  }
+
+  li.slick-active button:before {
+    color: var(--primary) !important;
+  }
+
+  .card1 {
     display: flex !important;
     flex-direction: column;
     gap: 20px;
-    padding: 10px;
+    padding: 1.5rem;
     color: black;
     height: 300px !important;
-    width: 300px !important;
-    background-color: rgba(128, 128, 128, 0.322);
+    width: 350px !important;
+    border: 1px solid #dee2e6 !important;
+
+    @media screen and (max-width: 1200px) {
+      width: 300px !important;
+    }
+
+    .icon {
+      font-size: 2em;
+      color: var(--primary);
+    }
+
+    .text {
+      text-align: justify;
+    }
+
+    .bio {
+      display: flex;
+      gap: 1rem;
+
+      .img-color {
+        fill: var(--primary);
+      }
+
+      .data {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .slick-current {
+    .card1 {
+      display: flex !important;
+      flex-direction: column;
+      gap: 20px;
+      padding: 1.5rem;
+      color: black;
+      height: 300px !important;
+      width: 350px !important;
+      background-color: var(--primary);
+      color: #fff;
+
+      @media screen and (max-width: 1200px) {
+        width: 300px !important;
+      }
+
       .icon {
-    font-size: 2em;
-    color: var(--primary);
-  }
+        font-size: 2em;
+        color: #fff;
 
-  .bio {
-    display: flex;
-    gap: 1rem;
+      }
 
-    img {
-      height: 65px;
-      width: 65px;
-    }
+      .bio {
+        display: flex;
+        gap: 1rem;
 
-    .data {
-      margin-top: 15px;
-    }
-  }
-  }
+        .img-color {
+          fill: white;
+        }
 
-  .slick-current{
-      .card1{
-    display: flex !important;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    color: black;
-    height: 300px !important;
-    width: 300px !important;
-    background-color: rgba(255, 0, 0, 0.137);
-      .icon {
-    font-size: 2em;
-    color: var(--primary);
-  }
-
-  .bio {
-    display: flex;
-    gap: 1rem;
-
-    img {
-      height: 65px;
-      width: 65px;
-    }
-
-    .data {
-      margin-top: 15px;
+        .data {
+          margin-top: 15px;
+        }
+      }
     }
   }
-  }
-  }
 
-  .tcards{
+  .tcards {
     display: flex !important;
     align-items: center;
     justify-content: center;
-
-
   }
 
 
