@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ReactComponent as Pic } from '../../Assets/image.svg';
 
+import Bounce from 'react-reveal/Bounce';
+
 
 const arr = [
   {
@@ -41,7 +43,7 @@ const arr = [
     bio: "CLIENT 1",
     data: "Customer",
   },
-  
+
 ];
 
 const NewTestimonials = () => {
@@ -66,7 +68,7 @@ const NewTestimonials = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           dots: true,
-          
+
         },
       },
       {
@@ -84,30 +86,32 @@ const NewTestimonials = () => {
   return (
     <div className="tContianer">
       <div className="heading">
-                    <div className='flex'>
-                        <h4>Testimonail</h4>
-                        <div className='border'></div>
-                    </div>
-                    <h2>Our Clients Say</h2>
-                </div>
-                
+        <div className='flex'>
+          <h4>Testimonail</h4>
+          <div className='border'></div>
+        </div>
+        <h2>Our Clients Say</h2>
+      </div>
+
       <div className="slider__container">
 
         <Slider {...settings}>
           {arr.map((data, i) => {
             return (
               <div className="tcards">
-                <div className="card1">
-                  <div className="icon">{data.img}</div>
-                  <p className="text">{data.heading}</p>
-                  <div className="bio">
-                    <div className='img-color'>{data.pic}</div>
-                    <div className="data">
-                      <h5>{data.bio}</h5>
-                      <small>{data.data}</small>
+                <Bounce bottom>
+                  <div className="card1">
+                    <div className="icon">{data.img}</div>
+                    <p className="text">{data.heading}</p>
+                    <div className="bio">
+                      <div className='img-color'>{data.pic}</div>
+                      <div className="data">
+                        <h5>{data.bio}</h5>
+                        <small>{data.data}</small>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Bounce>
               </div>
             );
 
