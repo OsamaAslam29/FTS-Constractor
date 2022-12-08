@@ -63,6 +63,7 @@ const About = () => {
                         </div>
                     </div>
                 </Roll>
+                <div id="about"></div>
             </div>
 
         </div>

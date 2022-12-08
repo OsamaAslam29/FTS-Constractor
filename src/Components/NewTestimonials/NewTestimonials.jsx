@@ -16,7 +16,15 @@ const arr = [
     heading:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     pic: <Pic />,
-    bio: "CLIENT",
+    bio: "CLIENT 3",
+    data: "Customer",
+  },
+  {
+    img: <FaQuoteLeft />,
+    heading:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    pic: <Pic />,
+    bio: "CLIENT 1",
     data: "Customer",
   },
   {
@@ -41,6 +49,14 @@ const arr = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     pic: <Pic />,
     bio: "CLIENT 1",
+    data: "Customer",
+  },
+  {
+    img: <FaQuoteLeft />,
+    heading:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    pic: <Pic />,
+    bio: "CLIENT 2",
     data: "Customer",
   },
 
