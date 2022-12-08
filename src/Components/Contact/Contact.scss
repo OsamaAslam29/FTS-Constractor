@@ -9,6 +9,10 @@
             display: flex;
             align-items: center;
             gap: .7rem;
+            h4{
+                font-weight: 200;
+                font-size: 1.25rem;
+            }
 
             .border {
                 margin-top: .5rem;
@@ -158,6 +162,10 @@
                     display: flex;
                     align-items: center;
                     gap: .7rem;
+                    h4{
+                        font-weight: 200;
+                        font-size: 1.25rem;
+                    }
 
                     .border {
                         margin-top: .5rem;
