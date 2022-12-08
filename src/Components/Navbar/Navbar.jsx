@@ -44,9 +44,9 @@ const Navbar = () => {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <div className='main'>
-                <a href='https://weblymart.com/landpage/landingpage/business_logos/1657828096_08.png' className="logo">
+                <div className="logo">
                     <img src={logo} alt="" />
-                </a>
+                </div>
                 <div className="border"></div>
                 <div className="nav">
                     <a href="#home" className='active'>Home</a>
@@ -79,7 +79,7 @@ const Navbar = () => {
         <Fade top>
             <div className={background ? 'nav-container scroll' : 'nav-container'}>
 
-                <a href='https://weblymart.com/landpage/landingpage/business_logos/1657828096_08.png' className="logo">
+                <a className="logo">
                     <img src={logo} alt="" />
                 </a>
 
