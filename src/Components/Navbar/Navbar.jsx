@@ -53,7 +53,7 @@ const Navbar = () => {
                     <a href="#about">About</a>
                     <a href="#services">Services</a>
                     <a href="#contact">Contact</a>
-                    <a href="#gallery">Testimonial</a>
+                    <a href="#testimonial">Testimonial</a>
                     <div className='right'>
                         <a href="tel:(678) 666 5226">Contact Us</a>
                     </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
                         <a href="#about">About</a>
                         <a href="#services">Services</a>
                         <a href="#contact">Contact</a>
-                        <a href="#testimonail">Testimonial</a>
+                        <a href="#testimonial">Testimonial</a>
                         <a className='call' href="tel:(678) 666 5226">Call Us</a>
                     </div>
                     <div className="mobile-menu">

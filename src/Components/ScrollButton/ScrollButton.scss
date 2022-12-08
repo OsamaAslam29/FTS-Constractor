@@ -10,9 +10,15 @@
         font-weight: bold;
         border-radius: 3px;
         z-index: 111;
+       
         &:hover{
                 background-color: var(--light);
                 border: 1px solid var(--primary);
                 color: var(--primary);
+        }
+        @media screen and (max-width:600px) {
+                right: 0px;
+                display: none;
+                
         }
 }

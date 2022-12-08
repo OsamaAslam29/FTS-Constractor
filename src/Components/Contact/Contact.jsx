@@ -16,7 +16,8 @@ const Contact = () => {
         console.log("Captcha value:", value);
     }
     return (
-        <div className='contact-container spacing' id='contact'>
+        <>
+        <div className='contact-container spacing'>
             <Slide bottom>
                 <div className="heading">
                     <div className='flex'>
@@ -85,6 +86,8 @@ const Contact = () => {
                 </Slide>
             </div>
         </div>
+        <div id="testimonial"></div>
+        </>
     )
 }
 
