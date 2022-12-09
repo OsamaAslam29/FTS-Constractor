@@ -7,9 +7,11 @@
     background-size: cover;
 
     @media screen and (max-width:600px) {
+        height: 80vh;
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Assets/mobile.png');
-        background-position: center center;
+        // background-position: center center;
         background-repeat: no-repeat;
+        background-size: cover;
         background-size: 100% 100%;
 
     }
