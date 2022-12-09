@@ -115,7 +115,7 @@ const NewTestimonials = () => {
           <Slider {...settings}>
             {arr.map((data, i) => {
               return (
-                <div className="tcards">
+                <div className="tcards" key={i}>
                   <Bounce bottom>
                    <div className="card1">
                       <div className="icon">{data.img}</div>
