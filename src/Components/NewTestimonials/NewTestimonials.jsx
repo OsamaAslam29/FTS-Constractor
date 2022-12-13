@@ -1,7 +1,7 @@
 import React from 'react'
 import "./NewTestimonials.scss";
 import { FaQuoteLeft } from 'react-icons/fa';
-
+import Slide from 'react-reveal/Slide';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -71,7 +71,7 @@ const NewTestimonials = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     centerMode: true,
     centerPadding: "0",
@@ -102,22 +102,23 @@ const NewTestimonials = () => {
   return (
     <>
       <div className="tContianer">
-        <div className="heading">
-          <div className='flex'>
-            <h4>Testimonail</h4>
-            <div className='border'></div>
+      <Slide bottom>
+          <div className="heading">
+            <div className='flex'>
+              <h4>Testimonail</h4>
+              <div className='border'></div>
+            </div>
+            <h2>Our Clients Say</h2>
           </div>
-          <h2>Our Clients Say</h2>
-        </div>
+      </Slide>    
+        <Bounce bottom>
+          <div className="slider__container">
 
-        <div className="slider__container">
-
-          <Slider {...settings}>
-            {arr.map((data, i) => {
-              return (
-                <div className="tcards" key={i}>
-                  <Bounce bottom>
-                   <div className="card1">
+            <Slider {...settings}>
+              {arr.map((data, i) => {
+                return (
+                  <div className="tcards" key={i}>
+                    <div className="card1">
                       <div className="icon">{data.img}</div>
                       <p className="text">{data.heading}</p>
                       <div className="bio">
@@ -128,14 +129,14 @@ const NewTestimonials = () => {
                         </div>
                       </div>
                     </div>
-                  </Bounce>
-                </div>
-              );
+                  </div>
+                );
 
 
-            })}
-          </Slider>
-        </div>
+              })}
+            </Slider>
+          </div>
+        </Bounce>
 
       </div>
 

@@ -5,6 +5,8 @@ import second from '../../Assets/second.jpg'
 import third from '../../Assets/third.jpg'
 import forth from '../../Assets/forth.jpg'
 import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
+
 
 const Services = () => {
     return (
@@ -39,6 +41,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="about-box">
+                    <Slide bottom>
                         <div className="heading">
                             <div className='flex'>
                                 <h4>About Us</h4>
@@ -47,6 +50,7 @@ const Services = () => {
                             <h2>FTS General Contractors Services</h2>
 
                         </div>
+                    </Slide>    
                         <div className="para">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

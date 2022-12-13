@@ -2,6 +2,7 @@ import React from 'react'
 import './About.scss'
 import Roll from 'react-reveal/Roll';
 
+
 import { ReactComponent as Search } from '../../Assets/search.svg'
 const About = () => {
     return (
