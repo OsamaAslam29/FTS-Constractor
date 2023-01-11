@@ -14,13 +14,13 @@ function App() {
 
   return (
     <>
-      <Home />
+      {/* <Home />
       <About />
       <Services />
-      <Contact />
+      <Contact /> */}
       <NewTestimonials />
-      <Footer />
-      <ScrollButton />
+      {/* <Footer />
+      <ScrollButton /> */}
     </>
   );
 }
